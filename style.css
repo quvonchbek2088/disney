@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  background: #232534;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: #232534;
+}
+.navbar {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* partners */
+
+.partners{
+    padding-top: 30px;
+    background-color: #232534;
+}
+.grid-container{
+    padding-bottom: 20px;
+    max-width: 1284px;
+    margin: 0 auto;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.grid-items{
+    padding: 44px 65px;
+    background: linear-gradient(180deg, #393B49 0%, #242632 100%);
+    border: 2px solid #4E515C;
+    border-radius: 12px;
+}
+.grid-items img{
+    align-items: center;
+    
+}
+.bexa{
+    width: 1248px;
+    height: 140px;
+}
+
+.sections{
+    padding-top: 10px;
+    background: #232534;
+
+}
+.sections h3{
+padding-bottom: 20px;
+color: white;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+}
+
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+#footer{
+  width: 100%;
+  
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-menu ul {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.footer-menu ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-menu ul li a {
+  text-decoration: none;
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+
+
+color: #FFFFFF;
+
+}
+
+.swiper-slide{
+  overflow: hidden;
+}
+ 
